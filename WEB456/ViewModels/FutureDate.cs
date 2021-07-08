@@ -13,7 +13,7 @@ namespace WEB456.ViewModels
         {
             DateTime dateTime;
             var isValid = DateTime.TryParseExact(Convert.ToString(value),
-                "dd/M/yyy",
+                "dd/M/yyyy",
                 CultureInfo.CurrentCulture,
                 System.Globalization.DateTimeStyles.None,
                 out dateTime);
